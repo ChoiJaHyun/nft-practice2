@@ -72,7 +72,7 @@ const Header: FC<HeaderProps> = ({
       <Flex alignItems="center" gap={[2, 2, 4]}>
         <Button
           variant="link"
-          colorScheme="green"
+          colorScheme="brown"
           onClick={() => navigate("/")}
           size={["xs", "xs", "md"]}
         >
@@ -80,7 +80,7 @@ const Header: FC<HeaderProps> = ({
         </Button>
         <Button
           variant="link"
-          colorScheme="green"
+          colorScheme="brown"
           onClick={() => navigate("/mint-nft")}
           size={["xs", "xs", "md"]}
         >
@@ -88,7 +88,7 @@ const Header: FC<HeaderProps> = ({
         </Button>
         <Button
           variant="link"
-          colorScheme="green"
+          colorScheme="brown"
           onClick={() => navigate("/my-nft")}
           size={["xs", "xs", "md"]}
         >
@@ -96,7 +96,7 @@ const Header: FC<HeaderProps> = ({
         </Button>
         <Button
           variant="link"
-          colorScheme="green"
+          colorScheme="brown"
           onClick={() => navigate("/sale-nft")}
           size={["xs", "xs", "md"]}
         >
